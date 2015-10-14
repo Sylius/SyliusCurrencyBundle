@@ -5,5 +5,4 @@ sylius:
   form:
     currency:
       code: Code
-      exchange_rate: Wechselkurs
       enabled: Aktiviert
