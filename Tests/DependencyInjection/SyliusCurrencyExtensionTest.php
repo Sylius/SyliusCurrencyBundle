@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace Sylius\Bundle\CurrencyBundle\Tests\DependencyInjection;
 
-use PHPUnit\Framework\Attributes\Test;
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
+use PHPUnit\Framework\Attributes\Test;
 use Sylius\Bundle\CurrencyBundle\Attribute\AsCurrencyContext;
 use Sylius\Bundle\CurrencyBundle\DependencyInjection\SyliusCurrencyExtension;
 use Sylius\Bundle\CurrencyBundle\Tests\Stub\CurrencyContextStub;
