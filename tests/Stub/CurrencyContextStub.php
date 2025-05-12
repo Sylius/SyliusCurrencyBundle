@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Bundle\CurrencyBundle\Tests\Stub;
+namespace Tests\Sylius\Bundle\CurrencyBundle\Stub;
 
 use Sylius\Bundle\CurrencyBundle\Attribute\AsCurrencyContext;
 use Sylius\Component\Currency\Context\CurrencyContextInterface;

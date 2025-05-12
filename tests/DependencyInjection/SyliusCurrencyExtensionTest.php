@@ -11,14 +11,14 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Bundle\CurrencyBundle\Tests\DependencyInjection;
+namespace Tests\Sylius\Bundle\CurrencyBundle\DependencyInjection;
 
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
 use PHPUnit\Framework\Attributes\Test;
 use Sylius\Bundle\CurrencyBundle\Attribute\AsCurrencyContext;
 use Sylius\Bundle\CurrencyBundle\DependencyInjection\SyliusCurrencyExtension;
-use Sylius\Bundle\CurrencyBundle\Tests\Stub\CurrencyContextStub;
 use Symfony\Component\DependencyInjection\Definition;
+use Tests\Sylius\Bundle\CurrencyBundle\Stub\CurrencyContextStub;
 
 final class SyliusCurrencyExtensionTest extends AbstractExtensionTestCase
 {
