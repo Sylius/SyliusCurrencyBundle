@@ -4,11 +4,11 @@
 sylius:
     form:
         currency:
-            base: Devise de base
-            code: Code
-            enabled: Activé
-            exchange_rate: Taux de conversion
+            base: Devise de référence
+            code: Nom
+            enabled: Activée
+            exchange_rate: Taux de change
         exchange_rate:
-            source_currency: Devise source
-            target_currency: Devise de destination
-            ratio: Rapport
+            source_currency: Devise d'origine
+            target_currency: Devise cible
+            ratio: Ratio
