@@ -4,10 +4,10 @@
 sylius:
     currency:
         code:
-            exact_length: Le code de la monnaie doit avoir exactement 3 caractères.
-            not_blank: Veuillez sélectionner le code de la monnaie.
-            regex: Le code de la monnaie ne peut contenir que des lettres, des chiffres, des tirets et des tirets bas.
-            unique: Le code de la monnaie doit être unique.
+            exact_length: Le code de la devise doit comporter exactement 3 caractères.
+            not_blank: Veuillez choisir le code de la devise.
+            regex: Le code de la devise peut uniquement être constitué de lettres, chiffres, tirets et de tirets bas.
+            unique: Le code de la devise doit être unique.
         exchange_rate:
             not_blank: Veuillez saisir le taux de conversion.
     exchange_rate:
