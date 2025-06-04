@@ -4,15 +4,15 @@
 sylius:
     currency:
         code:
-            exact_length: Le code de la devise doit comporter exactement 3 caractères.
             not_blank: Veuillez choisir le code de la devise.
-            regex: Le code de la devise peut uniquement être constitué de lettres, chiffres, tirets et de tirets bas.
             unique: Le code de la devise doit être unique.
+            currency: Cette valeur n'est pas un code de devise valide.
         exchange_rate:
             not_blank: Veuillez saisir le taux de conversion.
     exchange_rate:
         ratio:
             greater_than: Le taux doit être supérieur à 0.
+            less_than: Le taux doit être inférieur à {{ compared_value }}.
             invalid: Le taux doit être un nombre.
             not_blank: Veuillez renseigner le taux de conversion.
         source_currency:
