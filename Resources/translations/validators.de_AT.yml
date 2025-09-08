@@ -4,7 +4,7 @@
 sylius:
     currency:
         code:
-            not_blank: 'Bitte wählen Sie einen Währungscode.'
+            not_blank: 'Bitte wählen Sie einen Währungscode aus.'
             unique: 'Der Währungscode muss eindeutig sein.'
             currency: 'Dieser Wert ist kein gültiger Währungscode.'
         exchange_rate:
@@ -20,4 +20,4 @@ sylius:
         target_currency:
             not_blank: 'Bitte geben Sie an, auf welche Währung der Wechselkurs gesetzt werden soll.'
         unique_currency_pair: 'Das Währungspaar muss eindeutig sein.'
-        different_source_target_currency: 'Die Quell- und Zielwährungen müssen sich unterscheiden.'
+        different_source_target_currency: 'Die Quell- und Zielwährungen müssen unterschiedlich sein.'
